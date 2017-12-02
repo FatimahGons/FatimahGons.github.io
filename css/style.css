@@ -22,6 +22,7 @@ body {
         width: 100%;
         height: 100%;
 
+
     }
 
 
@@ -75,6 +76,14 @@ h1 {
     text-align: center;
 }
 
+/******************/ 
+/***FORMATION******/
+/*****************/
+
+.formationdiv {
+    margin-bottom: 5%;
+}
+
 
 /**************/ 
 /***PROFIL*****/
@@ -82,11 +91,14 @@ h1 {
 
 .profildiv {
     padding-top: 2%;
+
+
 }
 
 .profil {
     display: flex;
     padding-bottom: 5%;
+    margin-top: 5%;
 }
 
 #profiltext {
@@ -130,9 +142,14 @@ h1 {
 .subcategory {
     background-color: #2BAFD4;
     color: white;
+    margin-top: 15%;
+    margin-bottom: 15%;
     padding-bottom: 1%;
     padding-top: 1%;
-    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    text-align: -webkit-center;
 }
 
 /********************/ 
@@ -144,12 +161,17 @@ h1 {
 }
 
 .competencesprogressbar {
-    float: right;
+    
+    float: left;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 .competencestext {
     float: left;
 }
+
+
 
 /********************/ 
 /***EXPERIENCES******/
@@ -308,97 +330,29 @@ li.slider {
     background-color: #FEA565;
 }
 
-/*@media print {
-    body {
-  width: auto!important;
-  margin: auto!important;
-  font-family: serif;
-  font-size: 12pt;
-  background-color: #fff!important;
-  color: #000!important;
-}
-p, h1, h2, h3, h4, h5, h6, blockquote, ul, ol {
-  color: #000!important;
-  margin: auto!important;
-}
-.print {
-  display: block;  affichage des éléments de classe print 
-}
-p, blockquote {
-  orphans: 3;  pas de ligne seule en bas 
-  widows: 3;  pas de ligne seule en haut 
-}
-blockquote, ul, ol {
-  page-break-inside: avoid;  pas de coupure dans ces élements 
-}
-h1 {
-  page-break-before: always;  chaque titre commence sur une nouvelle page 
-}
-h1, h2, h3, caption {
-  page-break-after: avoid;  pas de saut après ces éléments 
-}
-a {
-  color: #000!important;
-  text-decoration: underline!important;
-}
-a[href]:after {
-  content: " (" attr(href) ")";  affichage des URL des liens 
-}
-}*/
-
-/*@media screen and (min-width: 200px) and (max-width: 640px) {
-  .bloc {
-    display:block;
-    clear:both;
-  }
-}*/
-
-/*@media print {
-    @page {
-        margin: 1cm;
-    }
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    p:first-line,
-    div:first-line,
-    blockquote:first-line,
-    li:first-line {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-    p {
-        widows: 4;
-        orphans: 3;
-    }
-    a[href^="http"]:not([href*="monsiteweb.com"]):after {
-        content: " (" attr(href) ")";
-    }
-}*/
-
 /***********************/ 
 /*****MEDIA SCREEN******/
 /***********************/
 
 /* version grand écran */
 @media screen and (min-width: 1000px) {
-    .article {
-        width:500px;
-        display:block;
-    }
+    
 }
 
 /* version mobile */
 @media screen and (min-width: 200px) and (max-width: 640px) {
-    .menu {
 
-        padding-bottom: 500%;
-        
-    }
     
+    
+    
+
+    
+    .menu a {
+ 
+    font-size: 15px;
+    padding-left: 5%;
+    
+}
 }
 
 /********************/ 
