@@ -380,7 +380,7 @@ li.slider {
 @media screen and (max-width: 1100px) {
     .menu li {
         width: 33.3%;
-        background-color: #2b2b2b;
+        background-color: #2C3E50;
         -webkit-transition: left 0.4s, background-color 0.4s;
         transition: left 0.4s, background-color 0.4s;
     }
