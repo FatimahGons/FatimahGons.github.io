@@ -123,14 +123,16 @@ h1 {
 }
 
 #profiltext {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     padding-left: 5%;
     animation-duration: 3s;
     animation-name: slidein;
 }
 
 .infos {
+     width: 40%;
+    height: 40%;
     background-color: #2C3E50;
     color: white;
     padding-bottom: 1%;
@@ -192,6 +194,8 @@ h4 {
     float: left;
     padding-left: 5%;
     padding-bottom: 5%;
+    width: 30%;
+    height: 30%;
 }
 
 .competencestext {
